@@ -1,0 +1,37 @@
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+}
+.main{
+    height:250px;
+    width:400px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    background-color:lightblue;
+    border:2px solid black;
+    border-radius:20px;
+}
+.hint{
+    font-size:20px;
+}
+.num{
+    margin:10px;
+    height:40px;
+    width:50%;
+    font-size:20px;
+    text-align:center;
+}
+button{
+    height:40px;
+    width:100px;
+    background-color: blue;
+    color:white;
+}
+.res{
+    margin:10px;
+    font-size:25px;
+    font-weight: 20px;
+}
